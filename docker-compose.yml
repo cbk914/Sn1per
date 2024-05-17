@@ -12,8 +12,3 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-  blackarch:
-    container_name: blackarch
-    build:
-      context: .
-      dockerfile: Dockerfile.blackarch
